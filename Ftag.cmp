@@ -1,0 +1,178 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 7/8/2015 8:40:53 PM
+
+BeginCmp
+TimeStamp = /53FE733A;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FE732E;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FE731C;
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FE71B9;
+Reference = C4;
+ValeurCmp = 0.1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FD149C;
+Reference = C5;
+ValeurCmp = 0.1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FD148D;
+Reference = C6;
+ValeurCmp = 0.1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FD2049;
+Reference = C7;
+ValeurCmp = 10nF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FD3791;
+Reference = C8;
+ValeurCmp = 27pF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FD37A0;
+Reference = C9;
+ValeurCmp = 27pF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FD0A9A;
+Reference = CON1;
+ValeurCmp = USB-MINI-B;
+IdModule  = USB_MINI_B;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FDF7D1;
+Reference = JTAG1;
+ValeurCmp = CONN_10X2;
+IdModule  = VASCH10x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FD3F50;
+Reference = Power1;
+ValeurCmp = Green;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FD3F2B;
+Reference = PowerOut1;
+ValeurCmp = DUAL_SWITCH_INV;
+IdModule  = MICROSWITCH_SPST;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FD3F4A;
+Reference = R1;
+ValeurCmp = 220R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FE3D9D;
+Reference = R2;
+ValeurCmp = 4.7K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FE3DAC;
+Reference = R3;
+ValeurCmp = 4.7K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FDFED6;
+Reference = R4;
+ValeurCmp = 220R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FD2064;
+Reference = R5;
+ValeurCmp = 10K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FD1A0F;
+Reference = R6;
+ValeurCmp = 12K 1%;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FE0042;
+Reference = R7;
+ValeurCmp = 220R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /559DED43;
+Reference = R8;
+ValeurCmp = 56R 1/4W;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FE36F7;
+Reference = SPI1;
+ValeurCmp = DIP8;
+IdModule  = DIP-8__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FDFDA1;
+Reference = tPower1;
+ValeurCmp = Red;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FD0ECB;
+Reference = U1;
+ValeurCmp = FT232H;
+IdModule  = LQFP48;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FD36BE;
+Reference = X1;
+ValeurCmp = 12 MHz;
+IdModule  = Xtal_1-3;
+EndCmp
+
+EndListe

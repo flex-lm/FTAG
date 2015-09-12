@@ -1,0 +1,58 @@
+eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 7/8/2015 8:51:14 PM
+#Cmp ( order = Reference )
+| C1         0.1uF       
+| C2         0.1uF       
+| C3         0.1uF       
+| C4         0.1uF       
+| C5         0.1uF       
+| C6         0.1uF       
+| C7         10nF        
+| C8         27pF        
+| C9         27pF        
+| CON1       USB-MINI-B  
+| JTAG1      CONN_10X2   
+| Power1     Green       
+| PowerOut1  DUAL_SWITCH_INV
+| R1         220R        
+| R2         4.7K        
+| R3         4.7K        
+| R4         220R        
+| R5         10K         
+| R6         12K 1%      
+| R7         220R        
+| R8         56R 1/4W    
+| SPI1       DIP8        
+| tPower1    Red         
+| U1         FT232H      
+| X1         12 MHz      
+#End Cmp
+
+#Cmp ( order = Value )
+| 27pF         C8        
+| 27pF         C9        
+| 10nF         C7        
+| 0.1uF        C1        
+| 0.1uF        C2        
+| 0.1uF        C3        
+| 0.1uF        C4        
+| 0.1uF        C5        
+| 0.1uF        C6        
+| USB-MINI-B   CON1      
+| CONN_10X2    JTAG1     
+| Green        Power1    
+| DUAL_SWITCH_INV PowerOut1 
+| 56R 1/4W     R8        
+| 220R         R1        
+| 220R         R4        
+| 220R         R7        
+| 4.7K         R2        
+| 4.7K         R3        
+| 10K          R5        
+| 12K 1%       R6        
+| DIP8         SPI1      
+| Red          tPower1   
+| FT232H       U1        
+| 12 MHz       X1        
+#End Cmp
+
+#End List
