@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Ftag"
-Date "16 jul 2015"
+Date "13 sep 2015"
 Rev "V 1.0"
 Comp ""
 Comment1 ""
@@ -1033,4 +1033,14 @@ Wire Wire Line
 Connection ~ 9000 4500
 Wire Wire Line
 	5500 1550 5600 1550
+Wire Notes Line
+	4200 1250 6000 1250
+Wire Notes Line
+	6000 1250 6000 2900
+Wire Notes Line
+	6000 2900 4200 2900
+Wire Notes Line
+	4200 2900 4200 1250
+Text Notes 4500 2450 0    60   ~ 0
+EXPERIMENTAL!\nDo not populate!
 $EndSCHEMATC
