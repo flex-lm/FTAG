@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Ftag"
-Date "13 sep 2015"
+Date "27 nov 2015"
 Rev "V 1.0"
 Comp ""
 Comment1 ""
@@ -348,17 +348,6 @@ NoConn ~ 5650 5500
 Text Label 5750 4800 0    60   ~ 0
 RI/RTCK/
 $Comp
-L DUAL_SWITCH_INV PowerOut1
-U 1 1 53FD3F2B
-P 5000 1650
-F 0 "PowerOut1" H 4800 1800 50  0000 C CNN
-F 1 "DUAL_SWITCH_INV" H 4950 1900 50  0000 C CNN
-F 2 "~" H 5000 1650 60  0000 C CNN
-F 3 "~" H 5000 1650 60  0000 C CNN
-	1    5000 1650
-	1    0    0    -1  
-$EndComp
-$Comp
 L +5V #PWR016
 U 1 1 53FD3F38
 P 3350 1150
@@ -402,19 +391,6 @@ F 3 "" H 3350 2350 60  0000 C CNN
 	1    3350 2350
 	1    0    0    -1  
 $EndComp
-$Comp
-L +3.3V #PWR018
-U 1 1 53FD4199
-P 4400 1550
-F 0 "#PWR018" H 4400 1510 30  0001 C CNN
-F 1 "+3.3V" H 4400 1660 30  0000 C CNN
-F 2 "" H 4400 1550 60  0000 C CNN
-F 3 "" H 4400 1550 60  0000 C CNN
-	1    4400 1550
-	1    0    0    -1  
-$EndComp
-Text Label 5600 1550 0    60   ~ 0
-VCCIO
 Text Label 5750 5000 0    60   ~ 0
 TRST
 $Comp
@@ -432,39 +408,6 @@ Text Label 9000 4400 0    60   ~ 0
 VCCIO
 NoConn ~ 8800 5500
 NoConn ~ 8800 5600
-$Comp
-L LED tPower1
-U 1 1 53FDFDA1
-P 5000 2000
-F 0 "tPower1" H 5000 2100 50  0000 C CNN
-F 1 "Red" H 5000 1900 50  0000 C CNN
-F 2 "~" H 5000 2000 60  0000 C CNN
-F 3 "~" H 5000 2000 60  0000 C CNN
-	1    5000 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R4
-U 1 1 53FDFED6
-P 5600 2350
-F 0 "R4" V 5680 2350 40  0000 C CNN
-F 1 "220R" V 5607 2351 40  0000 C CNN
-F 2 "~" V 5530 2350 30  0000 C CNN
-F 3 "~" H 5600 2350 30  0000 C CNN
-	1    5600 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR019
-U 1 1 53FDFEE5
-P 5600 2700
-F 0 "#PWR019" H 5600 2700 30  0001 C CNN
-F 1 "GND" H 5600 2630 30  0001 C CNN
-F 2 "" H 5600 2700 60  0000 C CNN
-F 3 "" H 5600 2700 60  0000 C CNN
-	1    5600 2700
-	1    0    0    -1  
-$EndComp
 Text Label 8200 4900 0    60   ~ 0
 RX/TDI/DO
 Text Label 8200 5000 0    60   ~ 0
@@ -575,22 +518,6 @@ Wire Wire Line
 	8200 4800 8800 4800
 Wire Wire Line
 	5650 5600 5750 5600
-Wire Wire Line
-	5600 2600 5600 2700
-Connection ~ 5600 2000
-Wire Wire Line
-	5600 1750 5500 1750
-Wire Wire Line
-	5600 1750 5600 2100
-Wire Wire Line
-	5200 2000 5600 2000
-Connection ~ 4400 1650
-Wire Wire Line
-	4400 2000 4800 2000
-Wire Wire Line
-	4400 1650 4500 1650
-Wire Wire Line
-	4400 1550 4400 2000
 Wire Wire Line
 	3350 2250 3350 2350
 Wire Wire Line
@@ -1031,16 +958,4 @@ Wire Wire Line
 Wire Wire Line
 	9000 4400 9000 4500
 Connection ~ 9000 4500
-Wire Wire Line
-	5500 1550 5600 1550
-Wire Notes Line
-	4200 1250 6000 1250
-Wire Notes Line
-	6000 1250 6000 2900
-Wire Notes Line
-	6000 2900 4200 2900
-Wire Notes Line
-	4200 2900 4200 1250
-Text Notes 4500 2450 0    60   ~ 0
-EXPERIMENTAL!\nDo not populate!
 $EndSCHEMATC
