@@ -165,13 +165,13 @@
     (add_net "Net-(R7-Pad2)")
   )
 
-  (module Connect:IDC_Header_Straight_20pins (layer F.Cu) (tedit 578FBE10) (tstamp 578E429B)
+  (module Connect:IDC_Header_Straight_20pins (layer F.Cu) (tedit 578FBDF0) (tstamp 578E429B)
     (at 172.085 91.44 180)
     (descr "20 pins through hole IDC header")
     (tags "IDC header socket VASCH")
     (path /53FDF7D1)
-    (fp_text reference P2 (at -1.27 4.064 180) (layer F.SilkS)
-      (effects (font (size 0.508 0.508) (thickness 0.0762)))
+    (fp_text reference P2 (at 11.43 -7.62 180) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CONN_10X2 (at 11.43 5.223 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
