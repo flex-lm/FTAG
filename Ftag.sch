@@ -1138,4 +1138,6 @@ F 3 "" H 4200 1600 50  0000 C CNN
 	1    4200 1600
 	1    0    0    -1  
 $EndComp
+Text Label 8550 5350 0    60   ~ 0
+TDI
 $EndSCHEMATC
